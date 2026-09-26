@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="CoLE-Net: consistent local-to-global MRI evidence for glioma radiogenomics, with biopsy-site validation.">
+  <meta property="og:title" content="CoLE-Net · Consistent Local-to-Global Evidence Modeling">
+  <meta property="og:description" content="A local-to-global framework for glioma MRI radiogenomics. Watch the method overview and explore the results.">
+  <meta property="og:image" content="assets/video-poster.jpg">
+  <title>CoLE-Net | Glioma MRI Radiogenomics</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css?v=18">
+  <script src="site.config.js" defer></script><script src="assets/evidence.js?v=18" defer></script><script src="app.js?v=18" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-nav wrap"><a class="wordmark" href="#">CoLE-Net</a><nav aria-label="Main navigation"><a href="#method">Framework</a><a href="#results">Results</a><a href="#qualitative">Examples</a></nav></header>
+<main id="main">
+  <section class="paper-header wrap">
+    <h1>Consistent Local-to-Global Evidence Modeling for Glioma MRI Radiogenomics via Geometry-Regularized Aggregation with Biopsy-Site Validation</h1>
+    <p class="paper-subtitle">CoLE-Net</p>
+    <div class="paper-links"><a class="repo-button" id="repo-link" href="https://github.com/Zhengyao0202/CoLE-Net" aria-label="Code"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 16"/></svg><span>Code</span><span class="repo-arrow" aria-hidden="true">↗</span></a></div>
+  </section>
+  <section class="overview wrap" id="overview" aria-label="Method overview video">
+    <div class="video-frame"><video id="overview-video" controls playsinline muted preload="metadata" poster="assets/video-poster.jpg" aria-label="44-second 3D motivation film: parallel clinical and local-model workflows, paired location and label correspondence, and recorded biopsy validation"><source src="assets/overview.mp4" type="video/mp4"><track kind="captions" src="assets/overview.vtt" srclang="en" label="English"><a href="assets/overview.mp4">Download the overview video</a></video></div>
+    <div class="video-caption"><p>Clinical sampling and local MRI modeling, linked by recorded biopsy evidence.</p></div>
+  </section>
+  <section class="research-overview wrap" id="abstract">
+    <div class="overview-prose"><h2>Overview</h2><p>Clinical labels originate from sampled tissue. The <strong>Consistent Local Evidence Network (CoLE-Net)</strong> makes regional categorical evidence explicit and connects it to the patient prediction through spatial context and tumor geometry.</p><p>The study includes 1,997 patients across six cohorts and evaluates IDH mutation, 1p/19q codeletion and histologic grade. A 15-patient cohort with recorded biopsy coordinates provides regional validation. This links patient-level discrimination with the diagnostic meaning and consistency of regional predictions.</p></div>
+  </section>
+  <section class="research-section wrap" id="method">
+    <div class="section-heading"><h2>Framework</h2></div>
+    <p class="section-intro">Regional likelihoods support both patient-level prediction and assessment at a recorded biopsy site.</p>
+    <figure class="paper-figure method-figure"><button class="figure-open" data-figure="assets/method-framework.svg" data-title="Figure 2. CoLE-Net framework" data-wide="1800" aria-label="Enlarge the CoLE-Net framework"><img src="assets/method-framework.svg" alt="CoLE-Net framework: Local-SEF regional evidence, CS-CG context, GREA aggregation, and native biopsy readout" loading="lazy"></button><figcaption><b>CoLE-Net framework.</b> Local-SEF learns regional evidence, CS-CG connects regional context, and GREA aggregates evidence into patient predictions. Click to enlarge.</figcaption></figure>
+  </section>
+  <section class="research-section wrap" id="results">
+    <div class="section-heading"><h2>Patient-level results</h2></div>
+    <p class="section-intro">CoLE-Net is compared with 19 baseline models across three prediction tasks and three evaluation cohorts. The six conventional models share 30 T1 intensity and tumor shape/location features.</p>
+    <figure class="paper-figure comparison-figure">
+      <div class="comparison-panels">
+        <div class="comparison-panel"><h3><span>(a)</span> AUC profiles <small>Supplementary Fig. S6</small></h3><button class="figure-open" data-figure="assets/performance-radar.svg" data-title="Supplementary Figure S6. Patient-level ROC-AUC profiles" data-wide="1400" aria-label="Enlarge the AUC radar chart"><img src="assets/performance-radar.svg" alt="Supplementary Figure S6: CoLE-Net and 19 baselines across nine cohort-task AUCs" loading="lazy"></button></div>
+        <div class="comparison-panel"><h3><span>(b)</span> Comparison with baselines <small>Main Fig. 3</small></h3><button class="figure-open" data-figure="assets/performance-comparison.svg" data-title="Main Figure 3. AUC difference versus each baseline" data-wide="1800" aria-label="Enlarge the AUC comparison heatmap"><img src="assets/performance-comparison.svg" alt="Main Figure 3: CoLE-Net minus baseline AUC differences in percentage points; nine cohort-task cells and their mean" loading="lazy"></button></div>
+      </div>
+      <figcaption><b>Patient-level performance.</b> ROC-AUC profiles (left) and differences from 19 baselines (right). Positive differences favor CoLE-Net; Mean averages the nine cohort–task comparisons. Click to enlarge.</figcaption>
+    </figure>
+    <div class="table-scroll"><table class="academic-table auc-table"><caption>CoLE-Net performance <span>ROC-AUC · eligible patients per endpoint</span></caption><thead><tr><th scope="col">Endpoint</th><th scope="col">Development <span>Out-of-fold</span></th><th scope="col">UCSF <span>External cohort</span></th><th scope="col">Xijing <span>External cohort</span></th></tr></thead><tbody id="auc-table"></tbody></table></div>
+    <details class="results-data" id="result-downloads">
+      <summary>Complete results and statistical comparisons</summary>
+      <p>Patient-level and biopsy comparisons use the same fitted conventional models. The six conventional configurations were selected after inspecting outcomes, with 95% weight on biopsy performance and 5% on patient-level performance. These comparisons are exploratory; the downloads retain the full 19-baseline panel and search-adjusted sensitivity results.</p>
+      <ul>
+        <li><a href="assets/patient-all-models.csv" download>Patient-level results: all models (CSV)</a> · <a href="assets/patient-paired-statistics.csv" download>Paired statistical comparisons (CSV)</a></li>
+        <li><a href="assets/biopsy-all-models.csv" download>Biopsy results: all models (CSV)</a> · <a href="assets/biopsy-paired-statistics.csv" download>Paired statistical comparisons (CSV)</a></li>
+        <li><button class="figure-link" data-figure="assets/biopsy-profile.svg" data-title="Main Figure 4. Biopsy profile of the ten baselines with the best mean biopsy rank" data-wide="1800">Biopsy profile (Fig. 4)</button> · <button class="figure-link" data-figure="assets/biopsy-all-baselines.svg" data-title="Supplementary Figure S8. Complete biopsy comparison with all 19 baselines" data-wide="1800">All 19 biopsy baselines (Fig. S8)</button></li>
+        <li><a href="assets/result-notes.md">Metric definitions, configuration selection and statistical scope</a></li>
+      </ul>
+    </details>
+  </section>
+  <section class="research-section wrap" id="qualitative">
+    <h2>Qualitative results</h2>
+    <p class="section-intro">Regional evidence, sampled-site validation and consistency across folds.</p>
+    <article class="qualitative-example" id="example-flow">
+      <div class="example-heading"><h3>From local to joint evidence</h3><span class="figure-number">Main Fig. 7</span></div>
+      <p class="example-intro">Regional MRI evidence stays explicit as context guides its contribution to the joint readout.</p>
+      <figure class="paper-figure complete-figure"><button class="figure-open" data-figure="assets/main-figure-7.svg" data-title="Main Figure 7. Native evidence formation" data-wide="1900" aria-label="Enlarge complete Figure 7: From local to joint evidence"><img src="assets/main-figure-7.svg" alt="Complete Figure 7: regional evidence formation from MRI to joint evidence across three patients, with context, allocation and original color scales" loading="lazy"></button><figcaption>Regional evidence formation across three patients. Yellow contours mark tumor support. Signed evidence and allocation use the separate scales shown in the figure. Click the figure to enlarge.</figcaption></figure>
+    </article>
+    <article class="qualitative-example" id="example-biopsy">
+      <div class="example-heading"><h3>Evidence at the sampled site</h3><span class="figure-number">Main Fig. 5</span></div>
+      <p class="example-intro">The recorded biopsy coordinate connects a tissue-derived diagnosis with evidence in the corresponding MRI region.</p>
+      <figure class="paper-figure complete-figure"><button class="figure-open" data-figure="assets/main-figure-5.svg" data-title="Main Figure 5. Recorded biopsy examples and five-fold readouts" data-wide="1800" aria-label="Enlarge complete Figure 5: Evidence at the sampled site"><img src="assets/main-figure-5.svg" alt="Complete Figure 5: three recorded biopsy cases with MRI, local and joint evidence, tissue-derived labels and five-fold readouts" loading="lazy"></button><figcaption>The gold star marks the recorded sampling site. Local maps show signed evidence; Joint maps show relative magnitude. Tissue-derived labels and five-fold readouts are shown for all three cases. Click the figure to enlarge.</figcaption></figure>
+    </article>
+    <article class="qualitative-example" id="example-stability">
+      <div class="example-heading"><h3>Consistency across folds</h3><span class="figure-number">Main Fig. 9</span></div>
+      <p class="example-intro">Five independently fitted models give more consistent spatial response patterns for CoLE-Net in these examples.</p>
+      <figure class="paper-figure complete-figure"><button class="figure-open" data-figure="assets/main-figure-9.svg" data-title="Main Figure 9. Five-fold spatial responses in two UCSF patients" data-wide="1700" aria-label="Enlarge complete Figure 9: Consistency across folds"><img src="assets/main-figure-9.svg" alt="Complete Figure 9: both UCSF patients comparing CoLE-Net, ResNet18 and CMTLNet across five fitted models, with spatial response maps and consistency summaries" loading="lazy"></button><figcaption>Two UCSF cases, three models and five folds. Maps show patient-output responses to matched local MRI replacement, with a separate display scale for each map. Numerical summaries use the original responses. Click to enlarge.</figcaption></figure>
+    </article>
+  </section>
+</main>
+<footer class="wrap"><span>CoLE-Net</span><p>Consistent Local Evidence Network · Glioma MRI radiogenomics</p><a href="assets/animation-credits.md">Animation credits</a></footer>
+<dialog id="figure-viewer" aria-labelledby="viewer-title"><div class="viewer-heading"><h2 id="viewer-title">Figure</h2><div><button id="viewer-zoom" aria-pressed="false">Zoom in</button><a id="viewer-download" download>Download</a><button id="viewer-close" aria-label="Close enlarged figure">Close ×</button></div></div><div class="viewer-pan"><img id="viewer-image" alt=""></div></dialog>
+<noscript><p class="wrap">The framework, figures and overview video are available directly.</p></noscript>
+</body>
+</html>

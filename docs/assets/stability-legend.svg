@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="190 729 460 42" width="900" height="82.17391304347827" style="overflow:hidden"><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m5de6373226" d="M 0 0  L 0 2  " style="stroke: #73838b; stroke-width: 0.8" />
+      <clipPath id="p1760e2d5a0">
+   <rect x="7.2" y="61.5312" width="140.832" height="140.832" />
+  </clipPath>
+  <clipPath id="p992949516d">
+   <rect x="288.009708" y="35.712" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="pda312b5c62">
+   <rect x="427.797708" y="35.712" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p091a862b9a">
+   <rect x="567.585708" y="35.712" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p95df7821b3">
+   <rect x="707.373708" y="35.712" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="pb446e884d3">
+   <rect x="847.161708" y="35.712" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p93ab10ddb0">
+   <rect x="288.009708" y="120.105708" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p615d7249c3">
+   <rect x="427.797708" y="120.105708" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="pce0d16287d">
+   <rect x="567.585708" y="120.105708" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p30eb716479">
+   <rect x="707.373708" y="120.105708" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="pfec1798629">
+   <rect x="847.161708" y="120.105708" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p6550251478">
+   <rect x="288.009708" y="204.499416" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="pb84a436048">
+   <rect x="427.797708" y="204.499416" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="pc79c36722f">
+   <rect x="567.585708" y="204.499416" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p3cf15f17ff">
+   <rect x="707.373708" y="204.499416" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p1e92761bad">
+   <rect x="847.161708" y="204.499416" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p549a336061">
+   <rect x="7.2" y="354.9312" width="140.832" height="140.832" />
+  </clipPath>
+  <clipPath id="p2562afc0c0">
+   <rect x="288.009708" y="329.112" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p9579d82199">
+   <rect x="427.797708" y="329.112" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="pae4bc26eb4">
+   <rect x="567.585708" y="329.112" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="pc47b945d20">
+   <rect x="707.373708" y="329.112" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="pe82e5a5e1a">
+   <rect x="847.161708" y="329.112" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p52ec846a97">
+   <rect x="288.009708" y="413.505708" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="pcd574d9401">
+   <rect x="427.797708" y="413.505708" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="paff87e98e9">
+   <rect x="567.585708" y="413.505708" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p97133e7bd5">
+   <rect x="707.373708" y="413.505708" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p640ba55cdd">
+   <rect x="847.161708" y="413.505708" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="pb7455945a7">
+   <rect x="288.009708" y="497.899416" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p93cb1114ac">
+   <rect x="427.797708" y="497.899416" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p756cc4ccd3">
+   <rect x="567.585708" y="497.899416" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="p45aea5365a">
+   <rect x="707.373708" y="497.899416" width="65.932584" height="65.932584" />
+  </clipPath>
+  <clipPath id="pda54831011">
+   <rect x="847.161708" y="497.899416" width="65.932584" height="65.932584" />
+  </clipPath>
+ </defs><rect x="190" y="729" width="460" height="42" fill="white" /><g id="axes_33" transform="translate(-116.920000 144.733000)">
+   <g id="patch_4">
+    <path d="M 325.476 599.472  L 743.436 599.472  L 743.436 591.696  L 325.476 591.696  z " style="fill: #ffffff" />
+   </g>
+   <image xlink:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAACRIAAAArCAYAAAAO9ua3AAADNElEQVR4nO3ay23DMBAE0JHSRIpLQWk6Vg4ugHNYEJLx3pnY5U+SYczx/fN7ZeE4jtWQFEPKOkWhtl9m+k2t/9zYa+e6qjrVWax71f1ut483m8+6VVWnu9MzvdpxjzzXsXdV0euB93V3v3PoffXEvb5dr+pttfc7fZ4z78avZj5jvabWtRwy2Ks7+69zPaY612Yfh/ZortfUupZDbreHs/2G7v5Ur6JO9ZwNvWO6Xs261vNpevX9ht7DW89s3z5+6h6+axVjtn47n/eb4MjyL6Jc12s5Jq+/kTrXq+iVJFfRr6lVzWndq6vTzGdmXTt77dzD97CiX7G2VHX23f1uPjvP7F536D1s37P4xOd+6lnceV+bOu9aN/sO3ezM5u7i0B3aufa6VjOn5jfRekxXZ11mbj5NqweuKxlc21Sdm+1RNeSB60qc/XJQ0+qB60qc/XJQ0+oz1zVZ61P3qKlT/M0GAAAAAAAAAAB8OkEiAAAAAAAAAABAkAgAAAAAAAAAABAkAgAAAAAAAAAAIkgEAAAAAAAAAABEkAgAAAAAAAAAAIggEQAAAAAAAAAAEEEiAAAAAAAAAAAggkQAAAAAAAAAAEAEiQAAAAAAAAAAgAgSAQAAAAAAAAAAESQCAAAAAAAAAAAiSAQAAAAAAAAAAESQCAAAAAAAAAAAiCARAAAAAAAAAAAQQSIAAAAAAAAAACCCRAAAAAAAAAAAQASJAAAAAAAAAACACBIBAAAAAAAAAAARJAIAAAAAAAAAACJIBAAAAAAAAAAARJAIAAAAAAAAAACIIBEAAAAAAAAAABBBIgAAAAAAAAAAIIJEAAAAAAAAAABABIkAAAAAAAAAAIAIEgEAAAAAAAAAABEkAgAAAAAAAAAAIkgEAAAAAAAAAABEkAgAAAAAAAAAAIggEQAAAAAAAAAAEEEiAAAAAAAAAAAggkQAAAAAAAAAAEAEiQAAAAAAAAAAgAgSAQAAAAAAAAAAESQCAAAAAAAAAAAiSAQAAAAAAAAAAESQCAAAAAAAAAAAiCARAAAAAAAAAAAQQSIAAAAAAAAAACCCRAAAAAAAAAAAQASJAAAAAAAAAACAJP+FZi6EyG/1TgAAAABJRU5ErkJggg==" id="imagecae10399f2" transform="scale(1 -1) translate(0 -7.74)" x="325.44" y="-591.66" width="417.96" height="7.74" />
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m5de6373226" d="M 0 0  L 0 2  " style="stroke: #73838b; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#m5de6373226" x="325.476" y="599.472" style="fill: #73838b; stroke: #73838b; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_53">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="325.476" y="609.910984" transform="rotate(-0 325.476 609.910984)">−1</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m5de6373226" x="534.456" y="599.472" style="fill: #73838b; stroke: #73838b; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_54">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="534.456" y="609.910984" transform="rotate(-0 534.456 609.910984)">0</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m5de6373226" x="743.436" y="599.472" style="fill: #73838b; stroke: #73838b; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_55">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="743.436" y="609.910984" transform="rotate(-0 743.436 609.910984)">1</text>
+     </g>
+    </g>
+    <g id="text_56">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="534.456" y="618.581687" transform="rotate(-0 534.456 618.581687)">Scaled signed effect</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2" />
+   <g id="LineCollection_1" />
+  </g>
+  </svg>

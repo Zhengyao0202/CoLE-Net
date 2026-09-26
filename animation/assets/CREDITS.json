@@ -1,0 +1,30 @@
+{
+  "head": {
+    "title": "Infinite, 3D Head Scan",
+    "author": "Lee Perry-Smith",
+    "source": "https://github.com/mrdoob/three.js/tree/r180/examples/models/gltf/LeePerrySmith",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "adaptation": "Recolored and scaled for a transparent conceptual patient visualization.",
+    "sha256": "402b8a8ac9f03232e6d64b5962929703a069daf99d3c49ac8eb0e48bedc9c576"
+  },
+  "brain": {
+    "author": "Thomas Habets",
+    "source": "https://github.com/ThomasHabets/brain/tree/837ab7bf343f543bd1e6f3ebb6b7a8227dc840d0",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "adaptation": "Simplified both pial surfaces to 30000 faces each; centered, scaled and reoriented for a schematic Y-up scene.",
+    "sha256": "d62917b914025615a1df5e0997992a4a35b3eb3cab20ac29ca529c200cfaca31"
+  },
+  "software": {
+    "library": "Three.js",
+    "version": "0.180.0",
+    "license": "MIT",
+    "source": "https://github.com/mrdoob/three.js/tree/r180"
+  },
+  "clinical_evidence": {
+    "source": "../../docs/assets/evidence.json",
+    "display_case": 2
+  },
+  "scene": "Concept anatomy and sampling/modeling schematic, followed by recorded-case MRI evidence."
+}
