@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CoLE-Net · Clinically aligned local modeling</title><link rel="stylesheet" href="film.css"><script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script></head>
+<body><div id="film">
+<div id="viewport"></div>
+<div class="film-top"><b>CoLE-Net</b><span>LOCAL-TO-GLOBAL MRI RADIOGENOMICS</span></div>
+<div class="copy"><div id="chapter"></div><h1 id="title"></h1><p id="description"></p></div>
+<div id="specimen-label" class="floating-card"><span>THE TISSUE PROVIDES</span><strong>Molecular status<br>Histologic grade</strong></div>
+<div id="comparison">
+  <section class="lane clinical"><div class="lane-heading"><span>CLINICAL LABEL GENERATION</span><h2>Clinical workflow</h2></div></section>
+  <section class="lane modeling"><div class="lane-heading"><span>LOCAL MRI MODELING</span><h2>Clinically aligned local modeling</h2></div></section>
+</div>
+<svg id="routes" viewBox="0 0 1600 900" aria-hidden="true">
+  <defs><filter id="glow"><feGaussianBlur stdDeviation="4"/></filter></defs>
+  <path id="clinical-base" class="route-base"/><path id="model-base" class="route-base"/>
+  <path id="clinical-glow" class="route-glow" pathLength="1000"/><path id="model-glow" class="route-glow" pathLength="1000"/>
+  <path id="clinical-track" class="route-gold" pathLength="1000"/><path id="model-track" class="route-gold" pathLength="1000"/>
+  <circle id="clinical-tip" r="5" fill="#ffe6b0"/><circle id="model-tip" r="5" fill="#ffe6b0"/>
+  <g id="site-pair-left" class="site-pair"><circle class="site-pulse" r="23"/><circle class="site-core" r="16"/><g transform="translate(-26,-27)"><circle r="14"/><text y="5">01</text></g></g>
+  <g id="site-pair-right" class="site-pair"><circle class="site-pulse" r="23"/><circle class="site-core" r="16"/><g transform="translate(26,-27)"><circle r="14"/><text y="5">01</text></g></g>
+  <circle id="site-dot-left" class="site-dot" r="5"/><circle id="site-dot-right" class="site-dot" r="5"/>
+  <circle id="label-dot-left" class="label-dot" r="5"/><circle id="label-dot-right" class="label-dot" r="5"/>
+  <path id="site-bridge" class="bridge" pathLength="1000"/><path id="label-bridge" class="bridge" pathLength="1000"/>
+</svg>
+<div id="clinical-summary">
+  <span class="site-caption">Localized tissue sampling</span>
+  <span class="tissue-caption">Tissue specimen</span>
+  <div id="clinical-label" class="outcome clinical-outcome"><i class="label-pair-badge">02</i><span>TISSUE-DERIVED LABELS</span><strong>Molecular status<br>Histologic grade</strong></div>
+  <p class="clinical-sequence">Sampling site <i>→</i> Specimen <i>→</i> Label</p>
+</div>
+<div id="model-summary">
+  <div id="regional-label" class="outcome model-outcome"><i class="label-pair-badge">02</i><span>REGIONAL EVIDENCE</span><strong>Categorical<br>likelihoods</strong></div>
+  <div id="patient-label">AGGREGATION<span>Patient prediction</span></div>
+  <div id="model-labels"><span>Local-SEF</span><i>→</i><span>CS-CG</span><i>→</i><span>GREA</span></div>
+</div>
+<div id="site-correspondence" class="bridge-label"><b>01</b> MATCH THE LOCATION</div>
+<div id="label-correspondence" class="bridge-label"><b>02</b> COMPARE THE LABEL</div>
+<div id="validation">
+  <svg class="validation-bridges" viewBox="0 0 1600 900"><path class="validation-site-line" d="M418.54 459.09H1200.48"/><path class="validation-label-line" d="M574 715H1037"/></svg>
+  <div class="real-case left-case"><figure><div class="image-wrap"><img src="../docs/assets/case-2-mri.webp" alt="Recorded biopsy coordinate on T1CE MRI"><i class="biopsy-focus" style="left:51.418718%;top:42.215154%"></i></div><figcaption>T1CE MRI · recorded biopsy site</figcaption></figure><div class="real-result"><i class="result-pair">02</i><span>BIOPSY HISTOLOGY</span><b>Grade IV</b></div></div>
+  <div class="real-case right-case"><figure><div class="image-wrap"><img src="../docs/assets/case-2-local.webp" alt="Native local evidence at the recorded biopsy coordinate"><i class="biopsy-focus" style="left:51.086214%;top:42.321800%"></i></div><figcaption>Regional MRI evidence · same recorded site</figcaption></figure><div class="real-result"><i class="result-pair">02</i><span>NATIVE LOCAL MARGIN</span><b id="margin">+0.897</b></div><div class="validation-folds"><span id="fold-text">5 / 5 fold models aligned</span><svg id="folds" viewBox="0 0 220 55"></svg></div></div>
+  <div class="validation-link location-link"><b>01</b><strong>Same recorded site</strong></div>
+  <div class="validation-link evidence-link"><b>02</b><strong>Grade IV ↔ local evidence</strong></div>
+</div>
+<div id="closing"><h2>Clinical labels begin locally.<br>Our model makes local evidence explicit.</h2><p>Validated at the recorded biopsy site.</p></div>
+<div class="film-bottom"><div class="timeline"><span data-step="0">CLINICAL LABEL</span><i></i><span data-step="1">SIDE BY SIDE</span><i></i><span data-step="2">LOCAL MODEL</span><i></i><span data-step="3">ALIGNMENT</span><i></i><span data-step="4">BIOPSY VALIDATION</span></div><div class="source-note" id="source-note"></div><div class="progress"><i id="progress"></i></div></div>
+</div><script type="module" src="scene.js"></script></body></html>

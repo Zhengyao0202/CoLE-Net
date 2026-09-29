@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00.000 --> 00:03.500
+Clinical labels originate in a local tumor sample.
+
+00:03.500 --> 00:09.000
+A needle reaches a particular region and extracts tissue.
+
+00:09.000 --> 00:13.000
+The specimen provides molecular and pathological labels.
+
+00:13.000 --> 00:15.000
+Clinical reference on the left; local MRI modeling on the right.
+
+00:15.000 --> 00:20.500
+Local-SEF learns explicit categorical evidence region by region.
+
+00:20.500 --> 00:26.000
+Regional context and geometry guide the patient prediction.
+
+00:26.000 --> 00:29.000
+01: Match the sampled location with local MRI support.
+
+00:29.000 --> 00:33.000
+02: Compare the tissue-derived label with regional evidence.
+
+00:33.000 --> 00:41.000
+Same recorded site: Grade IV biopsy, +0.897 mean local margin, five of five models aligned.
+
+00:41.000 --> 00:44.000
+Clinical labels begin locally. Our model makes local evidence explicit.

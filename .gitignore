@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+runs/
+demo_data/
+prediction/
+*.pt
+*.npz
+.DS_Store
+node_modules/
+animation/output/
+uv.lock

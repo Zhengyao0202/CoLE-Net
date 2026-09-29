@@ -1,0 +1,15 @@
+{
+  "name": "lapsef-motivation-animation",
+  "private": true,
+  "version": "0.3.0",
+  "type": "module",
+  "scripts": {
+    "preview": "node render.mjs --preview",
+    "stills": "node render.mjs --stills",
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0",
+    "playwright": "1.55.0"
+  }
+}
