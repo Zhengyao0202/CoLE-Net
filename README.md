@@ -5,6 +5,9 @@
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](pyproject.toml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-4b7f52)](LICENSE)
 
+> [!IMPORTANT]
+> Our paper is currently under review. This project is under active development, and we will continue to add more details and documentation.
+
 **Consistent Local-to-Global Evidence Modeling for Glioma MRI Radiogenomics via Geometry-Regularized Aggregation with Biopsy-Site Validation**
 
 CoLE-Net learns regional MRI evidence, models spatial and phenotypic context, and aggregates this evidence into patient-level predictions for IDH mutation, 1p/19q codeletion, and histologic grade.
